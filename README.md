@@ -1,1 +1,1 @@
-Reposotiry for Database Labs just in case if something go wrong
+Repository for Database Labs in case something goes wrong
