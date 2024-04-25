@@ -6,6 +6,7 @@
     <p><input type="text" name="url" placeholder="URL"></p>
     <p><input type="text" name="tel" placeholder="Телефон"></p>
     <p><input type="submit" class="button" value="Реєстрація"></p>
+    <p>Вже зареєстровані? <a href="index.html">Увійти</a>
 </form>
 
 <?php
