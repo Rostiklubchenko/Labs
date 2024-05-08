@@ -18,18 +18,14 @@
     <br>
 
     <form id="dateForm" action="process_SQL.php" method="POST">
+        <b><i>Для всіх значень залиште поля пустими.</i></b><br><br>
         <label for="date1">Date 1:</label>
-        <input type="date" id="date1" name="date1" required><br><br>
+        <input type="date" id="date1" name="date1"><br><br>
         <label for="date2">Date 2:</label>
-        <input type="date" id="date2" name="date2" required><br><br>
+        <input type="date" id="date2" name="date2"><br><br>
         <button type="submit" id="submitButton" disabled>Submit</button>
     </form>
     <br>
-    <form id="myForm" action="process_SQL.php" method="POST">
-        <input type="hidden" name="date1" value="2019-03-25">
-        <input type="hidden" name="date2" value="2019-10-05">
-        <button type="submit">Show all</button>
-    </form>
     
     <script src="script.js"></script>
 </body>

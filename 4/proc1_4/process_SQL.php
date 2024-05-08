@@ -2,6 +2,11 @@
 include "../../config.php";
 echo "Результат виконання <br>";
 
+if (empty($_POST['date1']) && empty($_POST['date2'])){
+    $_POST['date1'] = date('2019-03-25');
+    $_POST['date2'] = date('2019-10-05');
+}
+
 $date1 = $_POST['date1'];
 $date2 = $_POST['date2'];
 
