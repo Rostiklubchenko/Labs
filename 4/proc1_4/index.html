@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Процедура 1.4</title>
+</head>
+<body>
+    <h1>Процедура 1.4</h1>
+    <div style="width: 30%;">    
+        <b>Завдання:</b><br>
+        Інформацію про реалізовані за певний період часу та не сплачені товари фірм-виробників “MOULINEX” i “ROWENTA”.
+        Дата реалізації (початковий та кінцевий термін) повинна задаватись під час виконання запиту у вигляді параметра,
+        передбачити також можливість отримання інформації для всього періоду часу.
+        Динамічний набір записів повинен мати наступні поля:
+        Найменування типу товару, Найменування фірми-виробника,  Вартість, Дата реалізації, Дата сплати.
+    </div>
+    <br>
+
+    <form id="dateForm" action="process_SQL.php" method="POST">
+        <label for="date1">Date 1:</label>
+        <input type="date" id="date1" name="date1" required><br><br>
+        <label for="date2">Date 2:</label>
+        <input type="date" id="date2" name="date2" required><br><br>
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+    <br>
+    <form id="myForm" action="process_SQL.php" method="POST">
+        <input type="hidden" name="date1" value="2019-03-25">
+        <input type="hidden" name="date2" value="2019-10-05">
+        <button type="submit">Show all</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

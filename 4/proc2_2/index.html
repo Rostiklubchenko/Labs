@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Процедура 2.2</title>
+</head>
+<body>
+    <h1>Процедура 2.2</h1>
+    <div style="width: 30%;">    
+        <b>Завдання:</b><br>
+        для всіх товарів загальну кількість та загальну вартість реалізації за деякий місяць деякого року (значення параметрів для розрахункових полів Рік та Місяць, що будуються по полю Дата реалізації, повинні вводитись під час виконання запиту). 
+    </div>
+    <br>
+
+    <form id="dateForm" action="process_SQL.php" method="POST">
+        <label>Місяць:</label><br>
+        <select id="monthSelect" name = "month">
+            <option value="1">Січень</option>
+            <option value="2">Лютий</option>
+            <option value="3">Березень</option>
+            <option value="4">Квітень</option>
+            <option value="5">Травень</option>
+            <option value="6">Червень</option>
+            <option value="7">Липень</option>
+            <option value="8">Серпень</option>
+            <option value="9">Вересень</option>
+            <option value="10">Жовтень</option>
+            <option value="11">листопад</option>
+            <option value="12">Грудень</option>
+        </select><br><br>
+        <label>Рік:</label><br>
+        <input type="text" id="year" name="year" required><br><br>
+        <button type="submit" id="submitButton">Submit</button>
+    </form>
+    <br>
+    
+    <script src="script.js"></script>
+</body>
+</html>
