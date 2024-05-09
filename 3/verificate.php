@@ -28,7 +28,10 @@
                   </form>';
             echo '<form action="../2/index.html" method="post">
                     <button type="submit">LAB_2</button>
-                  </form>';            
+                  </form>';        
+            echo '<form action="../4/index.html" method="post">
+                  <button type="submit">LAB_4</button>
+                </form>';               
         }
     }
 
