@@ -11,7 +11,7 @@ $dbconnect = mysqli_connect($dblocation, $dbuser, $dbpassword);
 //     echo("<P> Connected </P>");
 // }
 
-$dbbase = "db1";
+$dbbase = "b17";
 
 $select = mysqli_select_db($dbconnect, $dbbase);
 
